@@ -3,10 +3,10 @@
 
     $header = file_get_contents("partials/header.html");
     $footer = file_get_contents("partials/footer.html");
-    $body = file_get_contents("views" . $_SERVER["QUERY_STRING"] . "/index.php");
-    if($body){
+    $bodyFile = "views" . $_SERVER["QUERY_STRING"] . "/index.php";
+    if(is_file($bodyFile)){
         echo $header;
-        echo $body;
+        include $bodyFile;
         echo $footer;
     }else{
         http_response_code(404);

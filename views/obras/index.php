@@ -1,6 +1,5 @@
 <?php
-    include("/Applications/XAMPP/xamppfiles/htdocs/Bea-Balen-Susin/acoes/conexao.php");
-    # include("/Applications/XAMPP/xamppfiles/htdocs/Bea-Balen-Susin/partials/header.html");
+    include("././acoes/conexao.php");
 
     if(isset($_POST["senha"]) && $mysqli != null){
         $senha = $mysqli->real_escape_string($_POST['senha']);
