@@ -1,34 +1,79 @@
 .container {
     max-width: 960px;
-  }
-  
-  /*
-   * Custom translucent site header
-   */
-  
-  .site-header {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-  }
-  .site-header a {
-    color: #8e8e8e;
-    transition: color .15s ease-in-out;
-  }
-  .site-header a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-  
+}
+.informacoes-gerais{
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.foto-luciano {
+    width: 100%;
+    height: 95vh;
+    background-color: #d3dbe0;
+    opacity: 1;
+    position: relative;
+}
+.descricao-foto {
+    color: white;
+    font-family: "Montserrat", serfif;
+    height: 4rem;
+}
+.descricao-foto h1{
+    color: #182644;
+    font-family: "Montserrat", serfif;
+    position: absolute;
+    font-size: 1rem;
+    top: 90vh;
+    left: 15rem;
+    /* font-weight: 700; */
+}
+
+.infos {
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    text-align: center;
+    right: 10rem;
+    background-color: #182644;
+    /* font-size: 1.5rem; */
+}
+.infos h1 {
+    margin-top: 5rem;
+    letter-spacing: .1rem;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "Montserrat", serfif;
+    font-size: 2.3rem;
+    /* margin-left: 0; */
+}
+.infos p {
+    letter-spacing: .05rem;
+    line-height: 2rem;
+    margin-bottom: 100px;
+    margin-top: 14vh;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: white;
+    font-family: "Mukta", serif;
+    font-size: 1rem;
+}
+.infos button {
+    background-color: #eb6524;
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 1rem;
+    border: none;
+    font-family: "Montserrat", serfif;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+}
   .product-device {
     /* align-items: center; */
     bottom: -30%;
     width: 100vw;
-    height: 110vh;
+    height: 85vh;
     /* background-size: cover; */
     background-color: #333;
     background-image: url("../img/banner-bea.jpg");
@@ -37,9 +82,9 @@
   .product-device::before {
     position: absolute;
     top: 10%;
-    right: 10px;
+    /* right: 10px; */
     bottom: 10%;
-    left: 10px;
+    /* left: 10px; */
     content: "";
     background-color: rgba(255, 255, 255, .1);
     border-radius: 5px;
@@ -47,13 +92,12 @@
   
   .product-device-2 {
     top: -25%;
-    right: auto;
+    /* right: auto; */
     bottom: 0;
-    left: 5%;
+    /* left: 5%; */
     background-color: #e5e5e5;
   }
-  
-  
+
   /*
    * Extra utilities
    */
