@@ -1,6 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Mukta:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .container {
-    max-width: 960px;
+  max-width: 960px;
 }
+
+.coluna-da-esq{
+  background-color: #eb6524;
+}
+
+.lead {
+  font-family: "Montserrat", serfif;
+}
+
+.display-5{
+  font-family: "Montserrat", serfif;
+  color:#e5e5e5bd;
+}
+
 .informacoes-gerais{
     overflow: hidden;
     position: relative;
@@ -35,7 +53,7 @@
     overflow: hidden;
     text-align: center;
     right: 10rem;
-    background-color: #182644;
+    background-color: #ff1414;
     /* font-size: 1.5rem; */
 }
 .infos h1 {
@@ -46,7 +64,7 @@
     font-family: "Montserrat", serfif;
     font-size: 2.3rem;
     /* margin-left: 0; */
-}
+  }
 .infos p {
     letter-spacing: .05rem;
     line-height: 2rem;

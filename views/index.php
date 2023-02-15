@@ -8,19 +8,21 @@
       <div class="product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
   
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-md-flex flex-md-equal w-100">
       <div class="coluna-da-esq">
-        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="text-center overflow-hidden">
             <div class="my-3 py-3">
-                <img src="./img/bea.jpg" alt="" style="width: 80%; height: 80%;">
-            <p class="lead">And an even wittier subheading.</p>
+                <img src="./img/bea.jpg" alt="" style="width: 60%; height: 70%;">
+                <p class="lead">And an even wittier subheading.</p>
             </div>
         </div>
       </div>
-      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+      <div class="text-center overflow-hidden">
+        <div class="infos">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
         </div>
       </div>
     </div>

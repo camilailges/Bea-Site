@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Mukta:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.wrapper-sobre {
+    /* padding: 50px; */
+    /* max-width: 720px; */
+}
+
+.canvas {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* .bea-ft {
+    max-width: 948px;
+} */
+
+.foto-bea {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.outer {
+    /* max-width: 720px; */
+    padding: 50px;
+}
+
+.texto-sobre {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.texto-sobre h1 {
+    font-size: 2.2em;
+    font-family: "Montserrat", serif;
+    margin-top: 0;
+}
+
+.texto-sobre p {
+    font-size: 1.2em;
+    font-family: "Montserrat", serif;
+    line-height: 1.4em;
+    letter-spacing: .9px;
+    text-transform: none;
+}
